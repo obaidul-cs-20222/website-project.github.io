@@ -7,12 +7,12 @@
     --navbar-height:51px;
 }
 
-#navbar 
+#navbar   /*style specification for navbar*/  
 {
-    display: flex;
-    align-items: center;
+    display: flex;  /* alignning the content as flex*/
+    align-items: center; /*align the contents to center*/
     background-color: lightgoldenrodyellow;
-    position: fixed;
+    position: fixed; /*fixing the position of the navbar*/
     top: 0px;
     left:0px;
     right:0px;
@@ -20,32 +20,35 @@
  }
 
 
- #logo
+ #logo  /*style specification for logo*/  
  {
     
-     margin: 0px 0px;
-     height: 1px 1px;
+     margin: 0px 0px; /*adjust the margin of logo*/
+     height: 1px 1px; /*adjust the height of the logo*/
       
  }
- #logo img
+ #logo img  /*style specification for logo img*/  
  {
-      height: 1px 1px;
+     /*adjust the height width and margin of logo image*/
+      height: 1px 1px; 
       width: 10%;
       margin: 2px 2px;
  }
- #navbar ul
+ #navbar ul  /*style specification for navbar ul*/  
   {
-     display:flex ;
+     display:flex ; /* alignning the content as flex*/
   }
 
 
  
-  #navbar ul li 
+  #navbar ul li   /*style specification for navbar ul li*/  
   {
-      list-style: none;
-      font-size: 1rem;
+      list-style: none; /*making no decoration to list*/
+      font-size: 1rem; /*set the font size*/
   }
-#navbar ul li a
+
+  
+#navbar ul li a   /*style specification for navbar ul li a*/  
   {
     
       display: block;
@@ -55,7 +58,7 @@
       
   }
 
-#navbar ul li a:hover
+#navbar ul li a:hover  /*style specification for navbar ul li after  cursor hovering*/  
   {
       color:darkgoldenrod;
       background-color:whitesmoke;
@@ -64,7 +67,7 @@
 
 
 
-  #home
+  #home   /*style specification for home section*/  
   {
       display: flex;
       color:rgb(3, 91, 91);
@@ -80,11 +83,13 @@
  
    
 
-.row {
+.row   /*style specification for row*/  
+{
   display: flex;
 }
 
-.column {
+.column /*style specification for column*/  
+{
   flex: 33%;
   padding: 5px;
   
@@ -92,11 +97,7 @@
 
 
 
-
-
-  
-
-.column img 
+.column img /*style specification for column image*/  
 {
     height: 70px 70px;
     width: 65%;
@@ -107,7 +108,7 @@
 }
   
 
-figcaption
+figcaption /*style specification for figcaption*/  
 {
   
   color: darksalmon;
@@ -118,7 +119,7 @@ figcaption
   
 }
 
-figcaption ul li
+figcaption ul li /*style specification for figcaption ul li*/  
 {
   
   list-style-type: none;
@@ -126,7 +127,7 @@ figcaption ul li
 }
 
 
-#front
+#front /*style specification for front section*/  
   {
      
       color:darkslategray;
@@ -146,7 +147,7 @@ figcaption ul li
   }
 
 
-  #middle
+  #middle  /*style specification for middle section*/  
   {
      
       color:darkslategray;
@@ -166,7 +167,7 @@ figcaption ul li
   }
 
   
-#ending
+#ending  /*style specification for ending section*/  
 {
       display: flex;
       justify-content: center;
@@ -177,7 +178,7 @@ figcaption ul li
 }
 
 
- #outro
+ #outro  /*style specification for outro section*/  
 {
       font-family: 'Playfair Display', serif;
       font-size:25px;
@@ -189,13 +190,19 @@ figcaption ul li
       
     
 
-#outro ul li
+#outro ul li  /*style specification for outro ul li section*/  
 {
   font-size: 15px;
   list-style: none;
 }
 
-#summary
+.claim /*style specification for claim division*/  
+{
+   font-size: 15px;
+  
+}
+
+#summary  /*style specification for summary section*/  
 { 
       display: flex;
       flex-direction: column;
@@ -206,7 +213,7 @@ figcaption ul li
       font-family: 'Oswald', sans-serif;
 }
 
-.p-heading
+.p-heading /*style specification for p-heading division*/  
 {
   align-items: center;
   
@@ -216,7 +223,7 @@ figcaption ul li
 
 }
 
-.p-primary
+.p-primary /*style specification for p-primary division*/
 {
    margin-left:10%;
   color: gray;
@@ -224,7 +231,7 @@ figcaption ul li
   font-size: 70px;
 }
 
-.p-prim
+.p-prim  /*style specification for p-prim division*/
 {
   
       display: flex;
@@ -237,7 +244,7 @@ figcaption ul li
   
 
 
-.p-secondary
+.p-secondary  /*style specification for p-secondary division*/
 {
   margin-left:5%;
   margin-right:5%;
@@ -247,7 +254,7 @@ figcaption ul li
 }
 
 
-.p-third 
+.p-third  /*style specification for p-third  division*/
 {
 
      display: flex;
@@ -259,7 +266,7 @@ figcaption ul li
 }
   
 
-.p-fourth
+.p-fourth /*style specification for p-fourth division*/
 {
 
      display: flex;
